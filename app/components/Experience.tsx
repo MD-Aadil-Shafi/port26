@@ -21,9 +21,10 @@ const jobs: Job[] = [
     bullets: [
       "Worked on developing the applications to be tested by LLMs.",
       "Worked on SQL queries and seeders to populate data to be tested by LLMs.",
+      "Worked on Python FastAPI to develop backend systems.",
       "Worked on PDOs and Next Js Server side to perform DB operations.",
     ],
-    stack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Docker", "Python", "FastAPI"],
+    stack: ["Docker", "Python", "FastAPI", "Next.js", "TypeScript", "Node.js", "PostgreSQL" ],
   },
   {
     role: "Senior Software Engineer",
@@ -33,8 +34,8 @@ const jobs: Job[] = [
     location: "Remote",
     bullets: [
       "Worked on micro-frontend architecture for various portals and services.",
+      "Worked on backend side to enhance existing and adding new endpoints.",
       "Refactored the code and did optimization by using dynamic imports,  code-splitting, de-bouncing and other best practices.",
-      "SEO optimization and fixed bugs and added new features and components.",
       "Added Unit test and E2E (end to end) test cases."
     ],
     stack: ["React", "Next Js", "Python", "FastAPI", "MongoDB", "Postgres", "Docker", "TailwindCSS", "PyTest", "Jest", "Playwright"],
@@ -47,9 +48,11 @@ const jobs: Job[] = [
     bullets: [
       "Successfully completed two major large scale Pending ERP projects.",
       "Added localization on brand website for Polish language for Poland region.",
+      "Extended the existing api with new endpoints and logics.",
+      "Developed the backend system to be synced with ZOHO pages",
       "Deployment of Application Frontend and Backend to VPS.",
     ],
-    stack: ["React.js", "JavaScript", "Redux", "Tailwind", "AWS", "Node Js", "Python", "MySQL", "MongoDB", "Express", "FastAPI"],
+    stack: ["Python", "Java", "React.js", "JavaScript", "Redux", "Tailwind", "AWS", "Node Js", "SpringBoot", "MySQL", "MongoDB", "Express", "FastAPI"],
   },
   {
     role: "Web Developer",
@@ -59,10 +62,11 @@ const jobs: Job[] = [
     bullets: [
       "Single handedly developed three more dedicated portals for Patients, Service Provider, Caretaker with multiple logics and sections.",
       "Created highly complex questionnaire components for sections like CCM(Critical Care Management), RPM (Remote Patient Monitoring).",
+      "Worked with senior backend developer to expend and add new api endpoints and logics.",
       "Created NPM package of these components to be re-used by other developers.",
       "Collaborated with Android & Ios developer to develop web-apps for them to be used from there side in Android/Ios web-view."
     ],
-    stack: ["JavaScript", "Node.js", "MongoDB", "Express", "React Js", "Next Js", "Postgres", "Python", "FastAPI"],
+    stack: ["JavaScript", "Node.js", "MongoDB", "Express", "React Js", "Next Js", "React Native", "Postgres", "Python", "FastAPI"],
   },
   {
     role: "Software Engineer",

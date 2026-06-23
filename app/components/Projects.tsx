@@ -15,56 +15,56 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Atlas Analytics",
+    title: "RAG APP",
     blurb:
-      "Real-time multi-tenant analytics dashboard. Next.js 15 RSC + WebSockets + ClickHouse — sub-second queries on 100M rows.",
-    tags: ["Next.js", "TypeScript", "Node.js", "ClickHouse", "Docker"],
-    href: "#",
+      "Users can upload 5 document per month and chat within context of those docs of max 50 questions per month. Can generate chat report page, can view usage metrics and much more.",
+    tags: ["AWS Services", "Docker","Python", "VectorDB", "Postgres", "LLM", "CI/CD", "RAG Pipeline", "React", "Redux"],
+    href: "https://rag-adl.netlify.app",
     accent: "from-fuchsia-500 to-cyan-400",
     emoji: "📊",
   },
   {
-    title: "Lumen Commerce",
+    title: "Cute Expense Tracker (RN App)",
     blurb:
-      "Headless e-commerce storefront with SSR product pages, edge caching, and a typed checkout state machine.",
-    tags: ["Next.js", "Redux", "Node.js", "Stripe", "Vercel Edge"],
-    href: "#",
+      "Built purely for one purpose: helping you track your daily expenses locally, without distractions.",
+    tags: ["React Native", "TypeScript", "SQLite"],
+    href: "https://play.google.com/store/apps/details?id=com.programivity.cuteExpenseTracker&pcampaignid=web_share",
     accent: "from-cyan-400 to-emerald-400",
     emoji: "🛒",
   },
   {
-    title: "Pulse Ingest",
+    title: "REST API for getting fake products.",
     blurb:
-      "Python/FastAPI event-ingestion pipeline handling 12M events/day. Kafka, Redis streams, and a Docker-Compose dev stack.",
-    tags: ["Python", "FastAPI", "Kafka", "Redis", "Docker"],
-    href: "#",
+      "REST API created using Node & Express Js. It returns list of clothing products in response. Multiple parameters can be passed to get desired list of products.",
+    tags: ["Node.js", "Express.js"],
+    href: "https://documenter.getpostman.com/view/25965951/2s93CKQa39",
     accent: "from-pink-500 to-orange-400",
     emoji: "⚙️",
   },
   {
-    title: "Nimbus Docs",
+    title: "Advance Kid's Online Quiz App",
     blurb:
-      "Collaborative docs editor with offline-first sync, CRDT merging, and an SSR landing page that scores 100 on Lighthouse.",
-    tags: ["React", "TypeScript", "Yjs", "Node.js", "PostgreSQL"],
-    href: "#",
+      "A full stack advance quiz web app, equipped with rich features and Google OAuth + JWT Authentication. Time limit feature.",
+    tags: ["Node.js", "Express.js", "MongoDB", "CI/CD", "React", "TypeScript"],
+    href: "https://kids-quiz-online.netlify.app",
     accent: "from-violet-500 to-fuchsia-500",
     emoji: "📝",
   },
   {
-    title: "Halo UI Kit",
+    title: "Machine Manufacturer ERP System",
     blurb:
-      "Open-source React component library with 60+ accessible components, theming, and a Storybook docs site.",
-    tags: ["React", "TypeScript", "Tailwind", "Storybook"],
-    href: "#",
+      "This is a full stack web application, simulating an ERP system of machine manufacturing company with multiple outlets.",
+    tags: ["AWS EC2", "Spring Boot", "MySQL", "React", "TypeScript", "Tailwind Css", "Ant design", "React-hook-form", "Zod"],
+    href: "https://classic-industries-erp.netlify.app",
     accent: "from-amber-400 to-pink-500",
     emoji: "🎨",
   },
   {
-    title: "Orbit Auth",
+    title: "Advance Blog Application",
     blurb:
-      "Drop-in auth-as-a-service with passkeys, social login, and Docker-based self-hosting. CSR + SSR session strategies.",
-    tags: ["Node.js", "Next.js", "Redis", "Docker"],
-    href: "#",
+      "Equipped with features like real time notification, comment, wishlist, like/unlike, Reset password.",
+    tags: ["Node.js", "Express.js","Socket.io", "MongoDB", "CI/CD", "React", "TypeScript"],
+    href: "https://blog-adl.netlify.app",
     accent: "from-emerald-400 to-cyan-400",
     emoji: "🔐",
   },
@@ -76,7 +76,7 @@ export default function Projects() {
       <div className="mx-auto max-w-6xl">
         <SectionTitle
           eyebrow="Selected Work"
-          title="Projects I'm proud of"
+          title="Recent projects"
           description="A handful of products and platforms I've designed, architected, or shipped end-to-end."
         />
 
@@ -153,7 +153,7 @@ function ProjectCard({ project }: { project: Project }) {
       </div>
 
       <div className="mt-6 flex items-center gap-2 text-sm font-medium text-zinc-300">
-        <span className="text-gradient">View case study</span>
+        <span className="text-gradient">View live</span>
         <span className="transition-transform group-hover:translate-x-1">→</span>
       </div>
 

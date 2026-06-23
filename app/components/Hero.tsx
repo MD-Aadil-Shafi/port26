@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const ROLES = [
   "Senior Software Engineer",
   "Full-Stack Developer",
-  "React & Next.js Specialist",
+  "Frontend With React & Next.js",
   "Node.js & Python Engineer",
 ];
 
@@ -81,7 +81,7 @@ export default function Hero() {
           <h1 className="mt-6 text-5xl sm:text-6xl md:text-7xl font-semibold leading-[1.05] tracking-tight">
             <span className="block text-zinc-100">Hi, I&apos;m Aadil —</span>
             <span className="block">
-              I build <span className="text-gradient">delightful</span> web products.
+              I build <span className="text-gradient">delightful</span> web applications.
             </span>
           </h1>
 
