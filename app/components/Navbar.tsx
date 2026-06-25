@@ -51,7 +51,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-6 flex items-center justify-between">
         <a href="#top" className="group flex items-center gap-2">
           <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-animated font-bold text-white shadow-lg shadow-fuchsia-500/30">
-            MAS
+            AS
             <span className="absolute inset-0 rounded-xl ring-1 ring-white/20" />
           </span>
           <span className="hidden sm:block text-sm font-medium tracking-wide text-zinc-200 group-hover:text-white transition-colors">
